@@ -6,10 +6,11 @@ def main():
     test_rom = "tests/1-chip8-logo.ch8"
     rom = load_rom(test_rom)
     chip = Chip(rom)
+    chip.load_fontset()
     chip.load_to_memory()
     while (running):
         chip.cpu()
-        # chip.draw()
+        chip.draw()
         
 if __name__ == "__main__":
     main()
