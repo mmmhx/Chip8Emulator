@@ -1,3 +1,3 @@
 ### The Simple Chip-8 Emulator
 
-![screenshot](prtscr.png)
+![screenshot](chip8-logo.png)
